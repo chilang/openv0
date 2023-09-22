@@ -39,7 +39,7 @@ export default function GeneratedComponentsList() {
     });
 
     try {
-      fetch(`http://localhost:3000/component/ping/?from=Home (Browse Components)`);
+      fetch(`/component/ping/?from=Home (Browse Components)`);
     }catch(e){
       console.log(e);
     }

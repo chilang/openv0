@@ -25,7 +25,8 @@ export default function GenerateNewComponent() {
 
     try {
       // Make the API POST request with the user input
-      const response = await fetch('http://localhost:3000/component/new', {
+      
+      const response = await fetch(`/component/new`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
