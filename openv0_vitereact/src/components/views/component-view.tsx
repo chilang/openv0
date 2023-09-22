@@ -39,7 +39,7 @@ export default function ComponentView() {
 
     try {
       // Make the API POST request with the user input
-      const response = await fetch('http://localhost/component/iterate', {
+      const response = await fetch('/component/iterate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
